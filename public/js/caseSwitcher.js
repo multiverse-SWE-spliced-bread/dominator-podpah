@@ -18,7 +18,7 @@ loudbtn.addEventListener("click",function(){
 sarcbtn.addEventListener("click",function(){
   
     let text = ""
-    let go = true
+    let go = false
     for(each in paragraph.innerText){
         if (go && paragraph.innerText[each] !== " "){
             text += paragraph.innerText[each].toUpperCase()

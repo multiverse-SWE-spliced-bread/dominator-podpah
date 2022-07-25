@@ -1,6 +1,6 @@
 const quietbtn = document.getElementById("quiet-btn")
 const header = document.getElementById("h1")
-header.innerHTML = "Harry Site"
+header.innerText = "Harry Site"
 function pressed(){
     window.alert("hi")
     const paragraph =  document.getElementsByTagName("p")

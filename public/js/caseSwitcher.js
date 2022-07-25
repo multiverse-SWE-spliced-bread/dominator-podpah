@@ -20,15 +20,16 @@ sarcbtn.addEventListener("click",function(){
     let text = ""
     let go = false
     for(each in paragraph.innerText){
+        if((paragraph.innerText[each] >= 101 && paragraph.innerText[each]  <= 172)){
         if (go && paragraph.innerText[each] !== " "){
             text += paragraph.innerText[each].toUpperCase()
             go =false
-        }else if (go === false && paragraph.innerText[each] !== " "){
+        }else if (go === false && (paragraph.innerText[each] >= 101 && paragraph.innerText[each]  <= 172)){
             go =true
             text += paragraph.innerText[each].toLowerCase()
         }else{
         text += paragraph.innerText[each]}
     }
     paragraph.innerText = text
-})
+}
    

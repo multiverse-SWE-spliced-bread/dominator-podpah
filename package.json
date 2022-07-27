@@ -26,11 +26,7 @@
   "devDependencies": {
     "jest": "^28.1.3",
     "jest-puppeteer": "^6.1.1",
-<<<<<<< HEAD
     "live-server": "^1.2.2",
-=======
-    "live-server": "^1.1.0",
->>>>>>> 07754f337145ac88369814f87acd8fddea9b4b5c
     "puppeteer": "^15.5.0"
   },
   "dependencies": {

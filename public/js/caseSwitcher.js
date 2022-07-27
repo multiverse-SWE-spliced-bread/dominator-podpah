@@ -9,7 +9,7 @@ function sarc() {
     let gogoat = false;
     for(i in patty.innerText) {
         if (patty.innerText[i] != " ") {
-            if(!/ [a-zA-Z]/) {str+= patty.innerText[i];console.log("potato"); continue}
+            if(!patty.innerText[i].match("[a-zA-Z]")) {str+= patty.innerText[i];console.log("potato"); continue}
             if(!gogoat) {str += patty.innerText[i].toLowerCase(); gogoat = true}
             else{str += patty.innerText[i].toUpperCase();console.log("tree");gogoat = false}
         }
